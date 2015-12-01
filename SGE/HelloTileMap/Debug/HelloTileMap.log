@@ -1,0 +1,23 @@
+﻿Build started 11/18/2015 8:15:05 PM.
+     1>Project "H:\SUGOKU\SGE\HelloTileMap\HelloTileMap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../SGE /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FrontendState.cpp WinMain.cpp
+         WinMain.cpp
+         FrontendState.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\SUGOKU\SGE\Debug\HelloTileMap.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\SUGOKU\SGE\Debug\HelloTileMap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\SUGOKU\SGE\Debug\HelloTileMap.lib" /MACHINE:X86 Debug\BaseState.obj
+         Debug\Character.obj
+         Debug\FrontendState.obj
+         Debug\GameContext.obj
+         Debug\GameplayState.obj
+         Debug\Map.obj
+         Debug\Tile.obj
+         Debug\WinMain.obj
+         H:\SUGOKU\SGE\Debug\SGE.lib
+         HelloTileMap.vcxproj -> H:\SUGOKU\SGE\Debug\HelloTileMap.exe
+     1>Done Building Project "H:\SUGOKU\SGE\HelloTileMap\HelloTileMap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.99

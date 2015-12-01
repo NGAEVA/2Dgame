@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloSGE", "HelloSGE\HelloSGE.vcxproj", "{DCE1897A-859A-448A-9280-EC685A2BF86E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGE", "SGE\SGE.vcxproj", "{34282BBF-80BD-40A9-8B00-4B6955B5D24A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloShooter", "HelloShooter\HelloShooter.vcxproj", "{D8C01984-3142-4FC6-A84D-CFE6B535C6E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VGP230", "VGP230\VGP230.vcxproj", "{79B8B4B5-B861-4316-B496-E3454569616E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A} = {34282BBF-80BD-40A9-8B00-4B6955B5D24A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTileMap", "HelloTileMap\HelloTileMap.vcxproj", "{A4923AB3-9719-470F-9FC0-8EC193C258B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE1897A-859A-448A-9280-EC685A2BF86E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCE1897A-859A-448A-9280-EC685A2BF86E}.Debug|Win32.Build.0 = Debug|Win32
+		{DCE1897A-859A-448A-9280-EC685A2BF86E}.Release|Win32.ActiveCfg = Release|Win32
+		{DCE1897A-859A-448A-9280-EC685A2BF86E}.Release|Win32.Build.0 = Release|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Debug|Win32.Build.0 = Debug|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Release|Win32.ActiveCfg = Release|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Release|Win32.Build.0 = Release|Win32
+		{D8C01984-3142-4FC6-A84D-CFE6B535C6E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8C01984-3142-4FC6-A84D-CFE6B535C6E0}.Debug|Win32.Build.0 = Debug|Win32
+		{D8C01984-3142-4FC6-A84D-CFE6B535C6E0}.Release|Win32.ActiveCfg = Release|Win32
+		{D8C01984-3142-4FC6-A84D-CFE6B535C6E0}.Release|Win32.Build.0 = Release|Win32
+		{79B8B4B5-B861-4316-B496-E3454569616E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79B8B4B5-B861-4316-B496-E3454569616E}.Debug|Win32.Build.0 = Debug|Win32
+		{79B8B4B5-B861-4316-B496-E3454569616E}.Release|Win32.ActiveCfg = Release|Win32
+		{79B8B4B5-B861-4316-B496-E3454569616E}.Release|Win32.Build.0 = Release|Win32
+		{A4923AB3-9719-470F-9FC0-8EC193C258B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4923AB3-9719-470F-9FC0-8EC193C258B3}.Debug|Win32.Build.0 = Debug|Win32
+		{A4923AB3-9719-470F-9FC0-8EC193C258B3}.Release|Win32.ActiveCfg = Release|Win32
+		{A4923AB3-9719-470F-9FC0-8EC193C258B3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

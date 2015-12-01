@@ -1,0 +1,30 @@
+﻿Build started 2015/11/24 20:33:48.
+     1>Project "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\HelloShooter\HelloShooter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I../SGE /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4100 /analyze- /errorReport:prompt UI.cpp
+         UI.cpp
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\HelloShooter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\HelloShooter.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\HelloShooter.lib" /MACHINE:X86 Debug\BossEnemy.obj
+         Debug\Bullet.obj
+         Debug\Collidable.obj
+         Debug\EliteEnemy.obj
+         Debug\EliteEnemy2.obj
+         Debug\EliteEnemy3.obj
+         Debug\Enemy.obj
+         Debug\EnemyBullets1.obj
+         Debug\EnemyBullets2.obj
+         Debug\Fighter.obj
+         Debug\GameoverUI.obj
+         Debug\Genkidama.obj
+         Debug\MinionEnemy.obj
+         Debug\UI.obj
+         Debug\WinMain.obj
+         Debug\World.obj
+         Debug\World2.obj
+         "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\SGE.lib"
+         HelloShooter.vcxproj -> C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\HelloShooter.exe
+     1>Done Building Project "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\HelloShooter\HelloShooter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.09

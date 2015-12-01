@@ -1,0 +1,11 @@
+[EMITTER_DATA]
+TextureName:	explosion.png
+MaxBufferSize:	100
+Region:		-20, -20, 20, 20
+Direction:	0, -1
+Span:		70
+Speed:		150, 180
+Lifetime:	0.2
+Scale:		0.1, 0.35
+StartColor:	255, 50, 20
+EndColor:	0, 0, 0

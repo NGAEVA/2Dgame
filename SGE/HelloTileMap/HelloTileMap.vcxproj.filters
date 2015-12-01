@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="sge.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="BaseState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontendState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContext.cpp" />
+    <ClCompile Include="Character.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="BaseState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontendState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h" />
+    <ClInclude Include="Character.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{988b2eed-2d76-4a8a-bb19-1db458670cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{9a27412c-c7b5-452f-b25b-aa008291237a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="texturepack01.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="level02.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="texturepack02.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="level03.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="texturepack03.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

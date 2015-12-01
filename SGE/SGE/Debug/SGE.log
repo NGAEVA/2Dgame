@@ -1,0 +1,13 @@
+﻿Build started 2015/11/23 1:40:29.
+     1>Project "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\SGE\SGE.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         SGE.vcxproj -> C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\SGE.lib
+       PostBuildEvent:
+          xcopy /d /y "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\SGE\External\Lib\FMOD\*.dll" "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\Debug\"
+         :VCEnd
+         复制了 0 个文件
+     1>Done Building Project "C:\Users\WEITAO\Desktop\2D game\SUGOKU\SGE\SGE\SGE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
